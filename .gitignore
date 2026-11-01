@@ -218,3 +218,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Splunk temporary files
+/tmp/botsv1/
+*.gz
+*.tgz
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Credentials
+*.env
+.env.local
